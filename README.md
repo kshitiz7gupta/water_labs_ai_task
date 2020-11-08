@@ -17,7 +17,7 @@ Body : username, password, email
 
 #2 Retrieve User
 Method: Get
-URL : http://localhost:8001/account/register/user/<username>/
+URL : http://localhost:8001/account/register/user/username/
 params : username
 
 #3 Update User
@@ -27,7 +27,7 @@ Body : username, password, email
 
 #4 Delete User
 Method: Delete
-URL : http://localhost:8001/account/register/user/<username>/
+URL : http://localhost:8001/account/register/user/username/
 params : username
 
 Task 2: Authenticate credentials
